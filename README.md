@@ -1,6 +1,7 @@
 # myapp-front
 
 Ceci est une page de formulaire
+Image liée myapp-back
 
 ## Pour créer l'image  
   docker build -t myapp-front .
