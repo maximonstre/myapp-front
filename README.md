@@ -1,9 +1,5 @@
-# myapp-front
+# site-web-photomax
 
-Ceci est une page de formulaire
-Image liée myapp-back
 
-## Pour créer l'image  
-  docker build -t myapp-front .
-## Pour lancer l'image de dev
-docker run -d -p 80:80 -v $(pwd)/public:/var/www/html/ myapp-front
+Pour que la partie mail du site  fonctionne il faut desactiver la sécurité de gmail afin qu'il puisse devenir relais smtp.
+Pour cela aller dans les paramètres du compte gmail puis dans "Accès moins sécurisé des applications" cliquer sur desactiver.
